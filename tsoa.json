@@ -1,0 +1,27 @@
+{
+    "swagger": {
+        "outputDirectory": ".",
+        "entryFile": "./routes/entry.ts",
+        "version": "1.0.0",
+        "name": "Grocery Planner",
+        "description": "Grocery Planner",
+        "basePath": "/groceryplanner/api",
+        "consumes": [
+            "application/json",
+            "text/json"
+        ],
+        "produces": [
+            "application/json",
+            "text/json"
+        ],
+        "extensions": {
+            "x-endpoint-env-name": "MICROSERVICE_BOILERPLATE_ENDPOINT"
+        }
+    },
+    "routes": {
+        "basePath": "/planner/api",
+        "entryFile": "./routes/entry.ts",
+        "routesDir": "./routes",
+        "middleware": "express"
+    }
+}

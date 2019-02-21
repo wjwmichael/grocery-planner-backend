@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Routes file is auto generated
+routes/routes.ts
+
+# Swagger file is auto generated
+swagger.json
+
+/node_modules
+
+package-lock.json
+
+/tmp
