@@ -1,2 +1,3 @@
-# express-couchdb-boilerplate
-A backend server boilerplate
+# Backend server for grocery-planner-ui
+
+
